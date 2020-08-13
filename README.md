@@ -1,4 +1,5 @@
 # Cards
+<<<<<<< HEAD
 
 **TODO: Add description**
 
@@ -19,3 +20,6 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/cards](https://hexdocs.pm/cards).
 
+=======
+Funções para lidar com cartas de baralho
+>>>>>>> 0606659e4fb9d9bb0760aa98c4c84b2da03adeb1
