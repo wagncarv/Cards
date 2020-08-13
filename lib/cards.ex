@@ -26,8 +26,12 @@ defmodule Cards do
   end
 
   def load(filename) do
-    {status, binary} = File.read(filename)
-    :erlang.binary_to_term(binary)
+
+    case File.read(filename) do
+      :ok -> :erlang.binary_to_term filename
+      :error -> "That file does not exist"
+      _ -> "Unknown error"
+    end
   end
 
   def main do
@@ -36,7 +40,7 @@ defmodule Cards do
     # |> contains?("Ace")
     # |> deal(5)
     # |> Cards.save("cards")
-    load("cards")
+    # load("cards")
    
 
   end
