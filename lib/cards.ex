@@ -25,12 +25,18 @@ defmodule Cards do
     File.write(filename, binary)
   end
 
+  def load(filename) do
+    {status, binary} = File.read(filename)
+    :erlang.binary_to_term(binary)
+  end
+
   def main do
-    create_deck()
+    # create_deck()
     # |> shuffle
     # |> contains?("Ace")
     # |> deal(5)
-    |> Cards.save("cards")
+    # |> Cards.save("cards")
+    load("cards")
    
 
   end
