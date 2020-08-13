@@ -28,15 +28,23 @@ defmodule Cards do
   @doc """
     Moves cards to different positions in the deck.
     The argument `deck` represents the list of playing cards.
+
   """
   def shuffle(deck) do
     Enum.shuffle(deck)
   end
 
   @doc """
-    Returns a boolean result indicating if a certain card is in the deck.
+    Dtermines if a given deck contains a given card.
     The argument `deck` represents a list of playing cards, and the 
     argument `card` is the one to be searched in the list.
+
+  ## Examples
+
+      iex> deck = Cards.create_deck
+      iex> Cards.contains?(deck, "Ace of Spades") 
+      true
+      
   """
   def contains?(deck, card) do
     Enum.member?(deck, card)
