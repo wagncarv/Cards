@@ -1,6 +1,6 @@
 > ## **Cards**
 
-Fornece métodos para criar e manipular um baralho de cartas.
+Fornece métodos para criar e manipular um cartas de baralho.
 
 ## Instalação
 
