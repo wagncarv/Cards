@@ -1,4 +1,4 @@
-> ## **Cards** ![Test Image 3](/blob/master/playing_cards.jpg)
+> ## **Cards** :clubs
 
 Fornece métodos para criar e manipular um cartas de baralho.
 
