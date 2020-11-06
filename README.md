@@ -1,6 +1,6 @@
 > ## :clubs: :spades: **Cards** :hearts: :diamonds:
 
-Fornece métodos para criar e manipular um cartas de baralho.
+Fornece métodos para criar e manipular cartas de baralho.
 
 ## Instalação
 
