@@ -1,4 +1,4 @@
-> ## **Cards** :clubs
+> ## **Cards** :clubs:
 
 Fornece métodos para criar e manipular um cartas de baralho.
 
