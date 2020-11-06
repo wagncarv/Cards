@@ -1,4 +1,4 @@
-> ## **Cards** ![Test Image 3](Cards/blob/master/playing_cards.jpg)
+> ## **Cards** ![Test Image 3](/blob/master/playing_cards.jpg)
 
 Fornece métodos para criar e manipular um cartas de baralho.
 
