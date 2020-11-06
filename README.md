@@ -1,4 +1,4 @@
-> Cards
+> **Cards**
 
 Fornece métodos para criar e manipular um baralho de cartas.
 
