@@ -1,8 +1,8 @@
-# Cards
+> Cards
 
-**TODO: Add description**
+Fornece métodos para criar e manipular um baralho de cartas.
 
-## Installation
+## Instalação
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `cards` to your list of dependencies in `mix.exs`:
